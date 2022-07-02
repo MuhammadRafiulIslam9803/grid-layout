@@ -1,0 +1,36 @@
+*{
+    margin: o;
+    padding: 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: aqua;
+    grid-gap: 10px;
+}
+.grid > div{
+    border: 5px solid green;
+    text-align: center;
+    padding: 20px;
+}
+.style1{
+   grid-column: 1/7;
+}
+.style2{
+    grid-column:1/4;
+
+}
+.style3{
+    grid-column: 4/7;
+}
+.style4{
+grid-column: 1/6;
+}
+.style5{
+    grid-column:6/7;
+    grid-row:3/5;
+}
+.style6{
+    grid-column:1/6;
+}

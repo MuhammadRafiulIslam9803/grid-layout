@@ -1,0 +1,45 @@
+
+
+.grid{
+    background-color:burlywood;
+    display: grid;
+   
+
+}
+
+.grid{
+    display: grid;
+    grid-template-areas:
+    'ami ami ami ami ami'
+    'tmi tmi tai tai nai'
+    'tmi tmi sei sob sob '
+    
+    ;
+    background-color: aqua;
+    grid-gap: 10px;
+    
+}
+.grid > div{
+    border: 5px solid green;
+    text-align: center;
+    padding: 20px;
+}
+
+.style1{
+   grid-area: ami;
+}
+.style2{
+    grid-area: tmi;
+
+}
+.style3{
+    grid-area: tai;
+}
+.style4{
+    grid-area:nai;
+.style5{
+    grid-area: sei;
+}
+.style6{
+    grid-area:sob;
+}
